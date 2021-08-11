@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+    <div class="container">
+      <h1>Cash Register Manager</h1>
+  <h3>Enter the bill amount and cash given by the customer and know  minimum number of notes to return.</h3>
+        <label for="bill-Amt">Bill Amount:</label>
+        <input id="bill-Amt" type="number" />
+        <button id="bill-AmtBtn" class="button">Next</button>
+        <div id="giv-amt-display" style="display: none;">
+          <label for="giv-Amt">Cash Amount:</label>
+          <input id="giv-Amt" type="number" />
+          <button id="giv-AmtBtn" class="button">Calculate</button>
+        </div>
+        <p id="err-message"></p>
+      
+      <div id="output" style="display: none;">
+        <table>
+          <thead>
+            <tr>
+              <th>Currency</th>
+              <td>2000</td>
+              <td>500</td>
+              <td>100</td>
+              <td>20</td>
+              <td>10</td>
+              <td>5</td>
+              <td>1</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Notes</th>
+              <td class="tab-values"></td>
+              <td class="tab-values"></td>
+              <td class="tab-values"></td>
+              <td class="tab-values"></td>
+              <td class="tab-values"></td>
+              <td class="tab-values"></td>
+              <td class="tab-values"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div> 
+      <script src="./app.js"></script>
+</body>
+</html>

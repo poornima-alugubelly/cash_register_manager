@@ -1,0 +1,56 @@
+:root {
+	--primary-color: rgb(107, 231, 5);
+	--secondary-color: black;
+}
+
+body {
+	margin: 2%;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+.container {
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	width: 100%;
+	max-width: 500px;
+	min-height: 200px;
+	margin: auto;
+	padding: 2rem 1rem;
+	box-shadow: var(--secondary-color) 0px 5px 15px;
+}
+
+label {
+	font-size: 1.2rem;
+}
+input {
+	width: 70%;
+	padding: 1rem;
+	height: 0.25rem;
+	display: block;
+	margin: 0.5rem 0rem;
+	font-weight: bold;
+}
+
+.button {
+	font-weight: bold;
+	padding: 0.3rem;
+	width: 20%;
+	margin-top: 1rem;
+	background-color: var(--primary-color);
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+	margin-top: 1rem;
+}
+th,
+td {
+	border: 0.1px solid var(--primary-color);
+}
+
+td {
+	padding: 0.7rem;
+}
